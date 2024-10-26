@@ -6,42 +6,6 @@ output:
     toc_float: true
 ---
 
-Index creates an html file
+# This is Flora's website for P8105 HW4
 
-# This is Jeff's awesome website
-
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
-Image pulled from internet, with the web address
-
-This is an awesome website about data science and elmo?
-
-Sometimes I use [google](https://www.google.com/) to do data science when I'm stuck.
-(inside square brackets will show up on website where as the inside the round brackets is the link that will open up when they click)
-
-But can also pull from repository and put directly into the website --> using ![](image.jpg) given that the image is in my repo 
-
-These are not going into code chunks! 
-
-![](images/yeriell mood board.png)
-
-First way 
-
-<img src="images/yeriell mood board.png" style="width:75%">
-
-
-If you'd like to learn more about this website, visit [this page](about.html) upper and lower case matters 
-
-This link takes you to a new file in the same folder called about.RMD
-
-# _site.yml
-
-You can define a site wide formatting, rather than trying to set up from scratch can set it up just once 
-
-Can click [here](https://bootswatch.com/3/) to see different options of themes
-
-NOW I CAN PUT STUFF ON THE INTERNET
-
-MOST IMPORTANT THING IS TO NAME THE REPO RIGHT 
-
-
-
+If you'd like to learn more about my academic and professional experience, visit [this page](about.html)
