@@ -9,6 +9,8 @@ navbar:
       href: resume.html
     - text: "About Me"
       href: about_me.html
+    - text: "Dashboard"
+      href: dashboard_HW4.html
     - icon: fa-envelope fa-lg
       href: mailto:<fp2513@cumc.columbia.edu>
     - icon: fa-github fa-lg
