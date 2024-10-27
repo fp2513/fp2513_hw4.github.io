@@ -1,16 +1,28 @@
 ---
-title: "This is Flora's website for P8105 HW4"
+title: "About Me"
 output: 
   html_document
 ---
 
-# Hi, my name is Flora
+Auckland, New Zealand isn't quite the first place you think of when people say world-leading research institutions, but growing up there does give you a lot of space to think. It taught me to be curious about the world beyond my little island. A lot has changed over the years, but I always wanted figure out how we know what we know. Who or what is behind it all?
 
-I'm a driven Masters student studying Biostatistics in Columbia University based in New York City, United States.
+<img src="images/question_man.png" style="width:22%">
 
-# Let's Work Together 
+Graduating high school, I swapped the sheep of local farmers for Buckingham Palace and Big Ben, and moved to London where I spent three years working towards a bachelor's degree in Immunology and Infection. I graduated University College London with a first class degree with honors in 2024 and found myself falling in love with statistic's dichotomous role of knowledge regulation and validation. 
 
-From data wrangling to meta-analyses, to something more hands-on, I use math and statistics to collect, analyze, and interpret data to improve health of people and communities. 
+![](images/london.png)
 
-If you'd like to learn more about my approach and see my previous work click [here](work.html).   
+My graduation dissertation focused on data wrangling and findings patterns in biology to learn about truth. I wanted to challenge myself, going further and further with the type of people I meet. 
+
+
+# Fashion 
+
+Beyond data science, I have love for fashion. More specifically I am interested in seeing how people convey to the world who they are. What does it mean about you when I never see you wear the color black? Or what about that necklace you always seem to wear, or the way you always match your tie to your socks. 
+
+These days, I am equally interested in the way the fashion world cycles through trends of the ages. Tired of data scientists being canonically labelled as 'unfashionable', I want to explore the intersection between biostatistics and fashion. 
+
+One idea that I have is enhanced Sizing with Body Scanning Data: The average fit model is often based on outdated size assumptions that don’t reflect the diversity of real body shapes. By combining biology (through body scanning technology) and data science, fashion brands can analyze a wide range of body types and create more inclusive, accurate sizing charts. Machine learning helps process vast amounts of body shape data, identifying commonalities and variances to adjust clothing patterns for better fit and comfort.
+
+
+
 
