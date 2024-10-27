@@ -14,7 +14,7 @@ navbar:
     - icon: fa-github fa-lg
       href: http://github.com/fp2513
     - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/<your-profile-name>/
+      href: https://www.linkedin.com/in/flora-pang/
 output:
   html_document:
     theme: cerulean

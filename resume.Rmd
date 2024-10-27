@@ -1,16 +1,56 @@
 ---
-title: "This is Flora's website for P8105 HW4"
+title: "Resume"
 output: 
   html_document
 ---
 
-# Hi, my name is Flora
+<br><br>
 
-I'm a driven Masters student studying Biostatistics in Columbia University based in New York City, United States.
+# Education
 
-# Let's Work Together 
+*COLUMBIA UNIVERSITY, MAILMAN SCHOOL OF PUBLIC HEALTH 	New York, United States*
 
-From data wrangling to meta-analyses, to something more hands-on, I use math and statistics to collect, analyze, and interpret data to improve health of people and communities. 
 
-If you'd like to learn more about my approach and see my previous work click [here](work.html).   
+Master of Science (MS), Biostatistics in Public Health Data Science       expected May 2026
+
+Furthering understanding in biostatistical theory, methods, and applications with a distinct emphasis on modern approaches to statistical learning, reproducible and transparent code, and data management. 
+
+
+
+<img src="images/CUIMC_Horizontal_Blue.png" style="width:75%">
+
+------------- 
+
+
+
+*UNIVERSITY COLLEGE LONDON                                                                                                   London, United Kingdom*
+
+
+Bachelor of Science (BSc), Immunology and Infection                                                                                     2021 - 2024
+
+Research-driven BSc programme nurtured statistical interpretation and critical analysis skills in the context of current Immunology and Infection literature.
+
+
+<img src="images/UCL.png" style="width:35%">
+
+
+<br><br>
+
+# Roles and Experience 
+
+*THE EMPATHY BUSINESS 	London, United Kingdom*
+
+Research Intern 	 July 2023 – July 2024 
+
+A business management consulting company which uses big data and big literature analyses to help clients better communicate to their target audience. This experience exposure me to the commercial application of statistics and dimensional data to aid a client company’s delivery of individualised communication.  
+
+--------------
+
+*THE APPLIED SURGERY AND METABOLISM LABORATORY 	Auckland, New Zealand*
+
+Lab Research Assistant 	 June – September 2023 
+
+The primary research intention was to understand how lymphatic fluid from the intestine mediated multiple organ failure in sepsis. The lab used proteomic analysis to determine toxic moieties to devise new treatments. 
+
+* Evaluated and pitched potential machine learning algorithms for sample quality assessment and experimental optimisation.
 

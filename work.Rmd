@@ -1,7 +1,19 @@
 ---
-title: "About my work"
+title: "Some of my previous work include:"
 output: html_document
 ---
+
+**HLA-enrichment of Clusters in Mtb-associated TCR sequence repertoires**
+
+Meta-clones, a group of non-identical TCR sequences of similar biochemistry and shared antigen specificity, are key to harnessing TCR repertoires as public biomarkers; however, the process of generating meta-clone biomarkers still requires refinement.
+
+My dissertation thesis used Python data wrangling methods to construct a HLA-restriction pipeline which would distinguish meta-clones from clusters of
+TCR sequences lacking shared specificity.
+
+Click [here](files/dissertation.pdf) to read my paper
+
+![](images/meta-clone.png)
+<br><br>
 
 # Let's build something better.
 

@@ -4,9 +4,10 @@ output:
   html_document
 ---
 
-# Hi, my name is Flora
+**Hi, my name is Flora**
 
 I'm a driven Masters student studying Biostatistics in Columbia University based in New York City, United States.
+
 
 # Let's Work Together 
 

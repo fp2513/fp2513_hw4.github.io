@@ -4,25 +4,21 @@ output:
   html_document
 ---
 
-Auckland, New Zealand isn't quite the first place you think of when people say world-leading research institutions, but growing up there does give you a lot of space to think. It taught me to be curious about the world beyond my little island. A lot has changed over the years, but I always wanted figure out how we know what we know. Who or what is behind it all?
+Growing up in Auckland, New Zealand, I was always encouraged to think broadly and critically, cultivating a curiosity about the world beyond my island home. Auckland may not immediately come to mind as a hub for world-leading research, but it instilled in me a strong sense of curiosity and a desire to understand how we know what we know—and who or what drives that knowledge forward.
 
 <img src="images/question_man.png" style="width:22%">
 
-Graduating high school, I swapped the sheep of local farmers for Buckingham Palace and Big Ben, and moved to London where I spent three years working towards a bachelor's degree in Immunology and Infection. I graduated University College London with a first class degree with honors in 2024 and found myself falling in love with statistic's dichotomous role of knowledge regulation and validation. 
+Upon graduating from high school, I moved to London to study Immunology and Infection at University College London, where I earned a First Class Honors degree in 2024. During my studies, I developed a keen interest in the dual role of statistics in both generating and validating scientific knowledge. This led to my dissertation focus on data wrangling and pattern discovery in tuberculosis blood samples. Rather than relying on predictive modeling, I worked to understand complex datasets and uncover valuable information directly from the data itself. This approach highlighted for me the vast potential within raw data, often overlooked in the age of Big Data’s emphasis on modeling.
 
 ![](images/london.png)
 
-My graduation dissertation focused on data wrangling and findings patterns in biology to learn about truth. I wanted to challenge myself, going further and further with the type of people I meet. 
+Currently, I am pursuing a Master’s degree in Biostatistics at Columbia University in New York City. I look forward to applying my background in immunology and statistical analysis to deepen our understanding of biomedical data, aiming to bridge the gap between data acquisition and insightful discovery.
 
+<br><br>
 
 # Fashion 
 
-Beyond data science, I have love for fashion. More specifically I am interested in seeing how people convey to the world who they are. What does it mean about you when I never see you wear the color black? Or what about that necklace you always seem to wear, or the way you always match your tie to your socks. 
+Beyond data science, I am drawn to fashion, particularly in how people use it to express their identities. Fashion choices—whether someone consistently avoids the color black, wears a specific necklace, or matches ties and socks—offer unique insights into individual personality and values.
 
-These days, I am equally interested in the way the fashion world cycles through trends of the ages. Tired of data scientists being canonically labelled as 'unfashionable', I want to explore the intersection between biostatistics and fashion. 
-
-One idea that I have is enhanced Sizing with Body Scanning Data: The average fit model is often based on outdated size assumptions that don’t reflect the diversity of real body shapes. By combining biology (through body scanning technology) and data science, fashion brands can analyze a wide range of body types and create more inclusive, accurate sizing charts. Machine learning helps process vast amounts of body shape data, identifying commonalities and variances to adjust clothing patterns for better fit and comfort.
-
-
-
+Lately, I’ve become intrigued by how the fashion industry cycles through trends over time, and I want to challenge the stereotype of the “unfashionable data scientist” by exploring the intersection of biostatistics and fashion. One idea I’m passionate about is leveraging body scanning data to enhance sizing inclusivity. Currently, standard sizing models are often based on outdated assumptions that don’t represent the diversity of real body shapes. With body scanning technology and data science, fashion brands could analyze diverse body types to create more inclusive, accurate sizing charts. Machine learning can process large sets of body shape data, revealing commonalities and differences that can inform better-fitting, more comfortable designs.
 
