@@ -1,11 +1,16 @@
 ---
-title: "Home Page"
+title: "This is Flora's website for P8105 HW4"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
+  html_document
 ---
 
-# This is Flora's website for P8105 HW4
+# Hi, my name is Flora
 
-If you'd like to learn more about my academic and professional experience, visit [this page](about.html)
+I'm a driven Masters student studying Biostatistics in Columbia University based in New York City, United States.
+
+# Let's Work Together 
+
+From data wrangling to meta-analyses, to something more hands-on, I use math and statistics to collect, analyze, and interpret data to improve health of people and communities. 
+
+If you'd like to learn more about my approach and see my previous work click [here](work.html).   
+
