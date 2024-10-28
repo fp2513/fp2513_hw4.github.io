@@ -1,0 +1,125 @@
+---
+title: "Dashboard_HW4"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(rnoaa)
+library(viridis)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+dated_ny_noaa = 
+  ny_noaa %>% 
+  mutate(
+    year = year(date),
+    month = month(date),
+    day = day(date)
+  ) %>% 
+  select(-date)
+
+ranked_prcp = 
+  dated_ny_noaa %>% 
+  group_by(id) %>% 
+  summarise(count_prcp = sum(prcp > 50, na.rm = TRUE)) %>% 
+  ungroup() %>%
+  arrange(desc(count_prcp)) %>%  
+  sample_n(50) %>%  
+  mutate(id = fct_reorder(id, count_prcp))
+
+plot_ly(data = ranked_prcp, 
+        x = ~id, 
+        y = ~count_prcp, 
+        color = ~id, 
+        type = "bar", 
+        colors = "viridis") %>%
+  layout(title = "Random Sample of 50 IDs by Count of Days with Precipitation > 50 from 1981 to 2010",
+         xaxis = list(title = "Station ID", tickangle = -90),
+         yaxis = list(title = "Count of Days with Precipitation > 50"))
+```
+
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+avg_temp = 
+  dated_ny_noaa %>% 
+  mutate(
+    tmax = as.numeric(tmax),
+    tmin = as.numeric(tmin),
+    tmax = tmax / 10,
+    tmin = tmin / 10
+  ) %>%
+  filter(id != "USC00305925",
+         id != "USC00300505",
+         id != "USC00306062") %>% 
+  group_by(id) %>% 
+  summarise(
+    avg_tmax = mean(tmax, na.rm = TRUE),
+    avg_tmin = mean(tmin, na.rm = TRUE)
+  )
+
+plot_ly(
+  data = avg_temp, 
+  x = ~avg_tmin, 
+  y = ~avg_tmax, 
+  type = 'scatter', 
+  mode = 'markers', 
+  color = ~as.factor(id), 
+  colors = viridis(n = n_distinct(avg_temp$id)),
+  text = ~paste("Station ID:", id),
+  marker = list(size = 10, opacity = 0.6)
+) %>%
+  layout(
+    title = "Average Tmax vs Average Tmin by Station",
+    xaxis = list(title = "Average Minimum Temperature (°C)"),
+    yaxis = list(title = "Average Maximum Temperature (°C)"),
+    legend = list(title = list(text = "Station ID"))
+  )
+```
+
+### Chart C
+
+```{r}
+filtered_20ID = 
+  dated_ny_noaa %>%
+  distinct(id) %>%          
+  slice(1:20) 
+
+filtered_20ID_data = 
+  dated_ny_noaa %>%
+  filter(id %in% filtered_20ID$id) %>% 
+  filter(prcp > 0 & prcp < 500)
+
+plot_ly(
+  data = filtered_20ID_data, 
+  x = ~as.factor(id), 
+  y = ~prcp, 
+  type = 'box', 
+  color = ~as.factor(id)
+) %>%
+  layout(
+    title = "Boxplot of Precipitation by Station ID (First 20 Unique IDs)",
+    xaxis = list(title = "Station ID", tickangle = -90),
+    yaxis = list(title = "Precipitation"),
+    legend = list(title = list(text = "Station ID"))
+  )
+```
+
